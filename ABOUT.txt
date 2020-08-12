@@ -1,0 +1,21 @@
+##############################################################################################################
+
+Type:  kubernetes.io/service-account-token
+
+Data
+====
+namespace:  11 bytes
+token:      eyJhbGciOiJSUzI1NiIsImtpZCI6InlaaUVsWTJuelkyblZRVmtqbjd1LXBZQXN0bjF5cGlxbkljeE9hRE4yTjgifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJ0dGwtY29udHJvbGxlci10b2tlbi1ucG5tbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJ0dGwtY29udHJvbGxlciIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjAyYjIxNTZlLTBmYzgtNDc2Ni04OTVkLWQ1MTVmNTNjOTkwNiIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlLXN5c3RlbTp0dGwtY29udHJvbGxlciJ9.cAszIb7MX-GbC9iL4pCf886QymOagjEShcKD08fPCVQQ7-KuvCMUxrXH9eApSc4wWlJ5d0F3C6K6L9xWY-V5KF_fbdptbLt0YdaypdwUo4twQKKBrEUD9YoVrCicA4puCBj4hIGkM_rgA0iFhVb2f5XGDBy0OP4Q_2ybdq7Keh-U0UU5-AcryOd_8eX6l_M4_VnFYlc7kOZuv8gNEFOmclCc3tD9yveyXDt4mDQwr_7HVqalA4U9hPkOP7JL0mp02x8VSEpvjWdHbfZAyVClSOFCcet2CB3zrb_uDOVTJIMq3ijfjAQWHzzplGnl8PzdGENxJkhoW0x0W9_yYDxJ_w
+ca.crt:     1025 byte
+
+
+
+##############################################################################################################
+##############################################################################################################
+##############################################################################################################
+##############################################################################################################
+
+
+##############################################################################################################
+##############################################################################################################
+##############################################################################################################
