@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pv-azure-rw-5g
+  labels:
+    app: my-nginx-with-pv
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi

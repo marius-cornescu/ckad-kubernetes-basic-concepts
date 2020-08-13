@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: PersistentVolume
+metadata:
+  name: my-pv
+  labels:
+    app: my-nginx-with-pv
+spec:
+  capacity: 10 Gi
+  accessModes:
+    - ReadWriteOnce
+    - ReadOnlyMany
+  persistentVolumeReclaimPolicy: Retain
+  azureFile:
+    secretName: ...
+    shareName: ...
+    readOnly: false

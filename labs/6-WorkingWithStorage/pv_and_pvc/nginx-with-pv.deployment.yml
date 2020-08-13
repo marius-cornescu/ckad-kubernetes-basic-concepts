@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-nginx-with-pv
+  labels:
+    app: my-nginx-with-pv
+spec:
+  selector:
+    matchLabels:
+      app: my-nginx
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: my-nginx-with-pv
+    spec:
+      containers:
+      - name: my-nginx
+        image: nginx:alpine
+        command:
+          - /bin/sh
+          - -c
+          - while true: do echo $(date) >> /mnt/blobdisk/outfile; sleep 1; done
+        #
+        volumeMounts:
+        - name: blobdisk01
+          mountPath: /mnt/blobdisk
+      #
+      volumes:
+      - name: blobdisk01
+        persistentVolumeClaim:
+          claimName: pv-azure-rw-5g
