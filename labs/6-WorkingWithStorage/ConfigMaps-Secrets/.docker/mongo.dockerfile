@@ -1,6 +1,6 @@
 FROM mongo
 
-LABEL author="Dan Wahlin"
+LABEL author="ArtizanSolutions"
 
 # Make sure necessary packages are installed
 RUN apt-get update && apt-get install -y cron netcat-traditional netcat-openbsd

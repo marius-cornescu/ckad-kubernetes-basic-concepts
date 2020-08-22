@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-LABEL author="Dan Wahlin"
+LABEL author="ArtizanSolutions"
 
 VOLUME /var/cache/nginx
 

@@ -1,5 +1,5 @@
 FROM        nginx:alpine
-LABEL       author="Dan Wahlin"
+LABEL       author="ArtizanSolutions"
 WORKDIR     /usr/share/nginx/html
 COPY        . .
 

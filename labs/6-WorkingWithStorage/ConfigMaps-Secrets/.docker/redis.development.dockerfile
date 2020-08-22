@@ -1,6 +1,6 @@
 FROM 		redis:latest
 
-LABEL author="Dan Wahlin"
+LABEL author="ArtizanSolutions"
 
 COPY        ./.docker/config/redis.development.conf /etc/redis.conf
 
